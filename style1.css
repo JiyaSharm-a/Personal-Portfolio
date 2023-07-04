@@ -1,0 +1,379 @@
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color:white;
+            font-family: 'poppins' , sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(12, 12, 61) ;
+        }
+
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            margin: 0 20px ;        /*  add space between the elements.........The 0 value represents the top and bottom margins, and 20px represents the left and right margins.  */
+        }
+
+        nav ul li a{
+            text-decoration: none;   /* Under line hta dega nav bar pr jo link h usse */
+            color:rgb(233, 227, 238);
+        }
+        nav ul li a:hover{
+            color:rgb(198, 198, 245);
+            font-size: 1.04rem;
+        }
+
+        .left{
+            font-size: 1.5rem;               /* since left is  a class that's why we r using ' . ' */
+        }
+
+        .first{
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            margin:105px 0;
+        }
+
+        .first > div{
+            width: 30%;               /* line ko kitni width deni h */
+        }
+
+
+        .f_left{
+            /* display:flex;
+            justify-content:center;
+            align-items:center; */
+            font-size: 2.5rem;
+
+        }
+
+        .f_right img{
+            margin-top: 0%;
+        } 
+
+        .name{
+            color: rgb(166, 91, 237);
+        }
+
+       .p{
+            height: 2px;
+            border:0px;
+            margin:0px 84px;
+            background: linear-gradient(to right, rgb(110, 194, 231),rgb(91, 91, 227) , rgb(238, 76, 103));     
+        }
+
+        .second{
+
+            max-width: 185vh;
+            max-height:500px;
+            margin:50px auto;
+
+        } 
+        
+        .text-gray{
+            /* margin-top: 100px; */
+            color: rgb(185, 185, 238);
+        }
+
+        .second h1{
+            /* margin-top:50px; */
+            font-size: 1.9rem;
+        }
+
+        .box{
+            background: linear-gradient(to right, rgb(255, 255, 255),rgb(219, 48, 219) , rgb(229, 33, 56));
+            /* width:80vh; */
+            height:2px;
+            margin:50px 25px;
+            display:flex;
+        }
+
+        .vertical_f{
+            height: 90px;
+            width:2px;
+            background: linear-gradient(to right, rgb(255, 255, 255),rgb(219, 48, 219) , rgb(229, 33, 56));
+            margin: 0px 5rem;
+        }
+
+        .vertical_s{
+            height: 90px;
+            width: 2px;
+            background: linear-gradient(to right, rgb(255, 255, 255),rgb(219, 48, 219) , rgb(229, 33, 56));
+            margin: 0px 8.5rem;
+        }
+
+        .vertical_t{
+            height: 90px;
+            width:2px;
+            background: linear-gradient(to right, rgb(255, 255, 255),rgb(219, 48, 219) , rgb(229, 33, 56));
+            margin: 0px 4.5rem;
+        }
+
+        .vertical_fo{
+            height: 90px;
+            width:2px;
+            background: linear-gradient(to right, rgb(255, 255, 255),rgb(219, 48, 219) , rgb(229, 33, 56));
+            margin: 0px 8.2rem;
+        }
+
+        .vertical_fi{
+            height: 90px;
+            width:2px;
+            background: linear-gradient(to right, rgb(255, 255, 255),rgb(219, 48, 219) , rgb(229, 33, 56));
+            margin: 0px 5rem;
+        }
+
+        .container{
+            margin:100px 95px;
+            height:300px;
+            width:1000px;
+            display:grid;
+            gap: 5rem;
+            background-color: linear gradient(to right,rgb(110, 194, 231),rgb(91, 91, 227) , rgb(238, 76, 103) );
+            grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr ;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .Ct h2{
+            margin-top: 10px;
+            font-size:1.25rem;
+            color: rgb(201, 155, 244);
+        }
+
+        .py{
+            margin-left:1px;
+        }
+
+        .ve{
+            height:44px;
+            width:44px;
+        }
+        
+        .cpp{
+            height:43px;
+            width:43px;
+        }
+
+        .web{
+            height:45px;
+            width:45px;
+        }
+
+        .ui{
+            height:45px;
+            width:45px;
+        }
+
+        .q{
+            height: 2px;
+            border:0px;
+            margin:230px 84px;
+            margin-bottom: 50px;
+            background: linear-gradient(to right, rgb(110, 194, 231),rgb(91, 91, 227) , rgb(238, 76, 103)); 
+        }
+
+        .third{
+            max-width: 100%;
+            margin:0px 84px;
+            
+        } 
+    
+        .third h1{
+            font-size: 1.9rem;
+        }
+
+        .bx
+        {
+            margin-top: 70px;
+            height: 500px;
+            width: 1000px;
+            display:grid;
+            grid-template-columns: 350px 350px 350px;
+            grid-template-rows: 400px;
+            gap:30px;
+            margin-left:10%;
+        }
+
+        .b1{
+            background:linear-gradient(to right, #42275a, #734b6d) ;
+            border:5px;
+            border-radius: 10px;
+            transition:transform .2s;
+        }
+
+        .b1:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        .b2{
+            background:linear-gradient(to right, #42275a, #734b6d) ;
+            border:5px;
+            border-radius: 10px;
+            transition:transform .2s;
+        }
+
+        .b2:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        .b3{
+            background:linear-gradient(to right, #42275a, #734b6d) ;
+            border:5px;
+            border-radius: 10px;
+            transition:transform .5s;
+        }
+
+        .b3:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        .dog{
+            width:10rem;
+            height:10rem;
+            margin:10% 26%;
+        }
+
+        .calculator{
+            width:10rem;
+            height:10rem;
+            margin:10% 26%;
+        }
+
+        .jar{
+            width:10rem;
+            height:10rem;
+            margin:10% 26%;
+        }
+
+        .third .bx h2{
+            font-size:1.5rem ;
+            margin-top:12px;
+            margin-left: 85px;
+            color: rgb(208, 172, 242);
+        }
+
+        .third .bx p{
+            font-size: 16px;
+            margin:5px auto;
+            width:90%;
+        }
+
+        .fourth{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            min-height: 100vh;
+            background: url(p.jpg) no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content:center;
+            /* align-items: center;  */
+        }
+        .contact-section{
+            width:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-info{
+            color:#f9889b;
+            /* margin:auto; */
+            max-width: 500px;
+            line-height:80px;
+            padding-left:50px;
+            font-size:18px;
+            font-weight: 300;
+        }
+
+        .map{
+            margin-right:20px;
+            height:50px;
+            width:50px;
+        }
+
+        .contact-form{
+            max-width:700px;
+            margin-right:50px;
+        }
+
+        .contact-info, .contact-form{
+            flex:1;
+        }
+
+        .contact-form h2{
+            color:#f9889b;
+            text-align: center;
+            font-size:45px;
+            text-transform:uppercase;
+            margin-bottom:30px;
+            font-weight:800;
+        }
+        
+        .contact-form .text-box{
+            background: #000;
+            color:#fff;
+            border:none;
+            width:calc(50%-10px);
+            height:50px;
+            padding:12px;
+            font-size:15px;
+            border-radius:5px;
+            box-shadow:0 1px 1px rgba(0,0,0,0.1);
+            margin-bottom:20px;
+            opacity:0.9;
+        }
+
+        .contact-form .text-box:first-child{
+            margin-right:15px;
+        }
+
+        .contact-form textarea{
+            background: #000;
+            color:#fff;
+            border:none;
+            width:100%;
+            padding:12px;
+            font-size:15px;
+            min-height: 200px;
+            max-height:400px;
+            resize:vertical;
+            border-radius:5px;
+            box-shadow:0 1px 1px rgba(0,0,0,0.1);
+            margin-bottom:20px;
+            opacity:0.9;
+        }
+
+        .contact-form .send-btn{
+            float:right;
+            background:linear-gradient(to right,#ffafbd, #ffc3a0) ;
+            color:#fff;
+            border:none;
+            width:120px;
+            height:40px;
+            font-size:15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius:5px;
+            cursor: pointer;
+            transition:transform .3s;
+        }
+
+        .send-btn:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        

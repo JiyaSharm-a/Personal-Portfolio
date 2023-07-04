@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiya Sharma - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="left">Jiya's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>                <!-- To create hyperlink  <a href="url">link text</a> -->
+                <li><a href="/">About</a></li>
+                <li><a href="#s2">Skills</a></li>
+                <li><a href="#s3">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="first">
+        <div class="f_left">
+            Hi, My Name Is <span class="name">Jiya</span>
+            <div>and I Am A Passionate</div>
+            <span id="element"></span>
+        </div>
+        <div class="f_right">
+            <img src="dev_photo.webp" alt="devPhoto">
+        </div>
+    </section>
+
+    <hr class="p">
+
+    <section id="s2" class="second">
+        <span class="text-gray">What I have learnt so far</span>
+        <h1>Skills</h1>
+        <div class="box">
+            <div class="vertical_f"></div>
+            <div class="vertical_s"></div>
+            <div class="vertical_t"></div>
+            <div class="vertical_fo"></div>
+            <div class="vertical_fi"></div>
+        </div>
+
+        <div class="container 1">
+            <div class="Ct Python"><img class="py" src="python.png" alt="py icon"><h2>Python Programming (2018-2020)</h2><p>First learning language, started in 11th standard.</p></div>
+            <div class="Ct VE"><img class="ve" src="ve.png"  alt="ve icon"><h2>Video Editing and Content Creator (2020-present)</h2><p> I use Filmora and I love to make fun videos and binding my ideas with editing.</p></div>
+            <div class="Ct DSA"><img class="cpp" src="cpp.png" alt="cpp icon"><h2>DSA in Cpp (2020-present)</h2><p>Solving more and more problems everyday.</p></div>
+            <div class="Ct Web Development"><img class="web" src="web.png" alt="web icon"><h2>Web Development (2022-present)</h2><p>Building & maintaining websites<❤️></p></div>
+            <div class="Ct UI/UX"><img class="ui" src="ui.png" alt="ui icon"><h2>UI/UX (2023-present)</h2><p>Learning to be a Web designer also. Figma, Wireframing</p></div>
+        </div>
+    </section>
+
+    <hr class="q">
+
+    <section id="s3" class="third">
+            <span class="text-gray">What I have Created so far</span>
+            <h1>Projects</h1>
+            <div class="bx">
+                <div class="b1">
+                    <img class="dog" src="dog.png" alt="dog">
+                  <h2>Tinder for Dogs</h2>
+                  <p>This is a platform for dogs where they can make friends for play dates. I made this using HTML, CSS & Bootstrap.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="b2">
+                    <img class="calculator" src="calculator.png" alt="calculator">
+                  <h2 ">GUI Calculator</h2>
+                  <p>A basic calculator(GUI application) made by using TKinter.</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="b3">
+                    <img class="dog" src="jar.png" alt="jar">
+                  <h2>Desktop Assistant</h2>
+                  <p>Python project using SAPI (Speech Application Programming Interface),an API and different modules</p>
+                </div><!-- /.col-lg-4 -->
+                
+              </div>
+    </section>
+
+    <!-- <hr class="r"> -->
+
+    <section id="s4" class="fourth">
+        
+        <div class="contact-section">
+            <div class="contact-info">
+                <div><img class="map" src="map.png" alt="map_marker"></i>Chennai, Tamil Nadu, India</div>
+                <div><img class="map" src="email.png" alt="email_marker"></i>jiyasharma.pkb@gmail.com</div>
+                <div><img class="map" src="phone-call.png" alt="phone_marker"></i>+91 9528129471</div>
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form class="contact" action="mailto:jiyasharma.pkb@gmail.com" method="post">
+                    <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                    <input type="email" name="Email" class="text-box" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <input type="submit" name="submit" class="send-btn" value="Send">
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Learner','Web developer','UI/UX designer','Coder.'],
+        typeSpeed: 70});
+    </script>
+</body>
+</html>
